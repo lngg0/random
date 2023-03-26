@@ -1,0 +1,146 @@
+/* font-family: 'Russo One', sans-serif; */
+
+.text {
+    font-family: 'Russo One', sans-serif;
+}
+
+.main {
+    background-color: #E1CDE1;
+    border-radius: 100px;
+    width: 95%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gost {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo-text {
+    background-color: #D3BAE6;
+    border-radius: 150px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 50px;
+    text-align: center;
+}
+
+.pos {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.in-put {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 150px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.check-button {
+    margin-left: 15px;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 150px;
+    background: #CEA1CF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: #D8C3D9;
+}
+
+.pos1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.vopros {
+    background-color: #C4A9D9;
+    width: 25%;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;  /* по верх-низ */
+    justify-content: center;  /* лево-право */
+}
+
+.text-vopros {
+    font-size: 150px;
+}
+
+.opros {
+    width: 35%;
+}
+
+.schet {
+    background-color: #D3BAE5;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;  /* по верх-низ */
+    justify-content: center;  /* лево-право */
+    border-radius: 50px;
+}
+
+.rec {
+    background-color: #D3BAE5;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;  /* по верх-низ */
+    justify-content: center;  /* лево-право */
+    border-radius: 50px;
+}
+
+.schet-1 {
+    background-color: #D3BAE5;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;  /* по верх-низ */
+    justify-content: center;  /* лево-право */
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.rec-1 {
+    background-color: #D3BAE5;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;  /* по верх-низ */
+    justify-content: center;  /* лево-право */
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.opros-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #C688C8;
+}

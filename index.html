@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="one">
+            <div>
+                <div class="logo-text">
+                    <h1 class="text logo">УГАДАЙ ЧИСЛО</h1>
+                </div>
+                <h3 class="text pos">Введите число от 1 до 100:</h3>
+                <input type="text" class="in-put">
+                <button class="btn check-button" onclick="check()">Проверить</button>
+                <p class="text pos1">ЗАГАДОННОЕ ЧИСЛО БОЛЬШЕ/МЕНЬШЕ ЧЕМ ЧИСЛО ИГРОКА</p>
+            </div>
+            <div>
+                <img src="img/gost.png" alt="gost" class="gost">
+            </div>
+        </div>
+        <div class="two">
+            <div class="vopros">
+                <h1 class="text-vopros text">?</h1>
+            </div>
+            <img src="img/cat.png" alt="cat" class="cat">
+            <!-- <img src="img/star.png" alt="star" class="star"> -->
+            <div class="opros">
+                <div class="opros-div">
+                    <div class="schet">
+                        <h3 class="text schet-text">СЧЕТ:</h3>
+                    </div>
+                    <div class="schet-1">
+                        <h3 class="text schet-text1"></h3>
+                    </div>
+                </div>
+                <div class="opros-div">
+                    <div class="rec">
+                        <h3 class="text rec-text">РЕКОРД:</h3>
+                    </div>
+                    <div class="rec-1">
+                        <h3 class="text rec-text1"></h3>
+                    </div>
+                </div>
+                <button class="in-button btn" onclick="res()">Еще раз</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
